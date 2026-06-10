@@ -10,3 +10,7 @@
 /dataSources.local.xml
 *.iml
 /.idea
+
+# Jekyll build output and cache
+/_site/
+/docs/.jekyll-cache/
