@@ -12,7 +12,7 @@
     <![endif]-->
     {% include head-custom.html %}
 </head>
-<body>
+<body class="layout-{{ page.layout | default: 'default' }}">
 <div class="wrapper">
     <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title}}</a></h1>
