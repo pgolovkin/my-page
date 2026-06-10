@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop My Page"
+  short_description: "Develop this GitHub Pages Jekyll site"
+  default_prompt: "Use $develop-my-page to update my GitHub Pages site."

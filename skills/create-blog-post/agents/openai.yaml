@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Blog Post"
+  short_description: "Add Jekyll blog posts to this site"
+  default_prompt: "Use $create-blog-post to add a new blog post to my GitHub Pages site."
