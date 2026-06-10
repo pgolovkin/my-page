@@ -1,9 +1,4 @@
----
-layout: default
-title: Обо мне
----
-
-<section class="home-hero">
+I"<section class="home-hero">
   <h1>Заметки о работе в IT, проектах и продуктах</h1>
   <p class="lead">
     Пишу о принятии решений, процесах, технологиях и практических наблюдениях из рабочих проектов.
@@ -16,12 +11,12 @@ title: Обо мне
   </div>
 
   <div class="post-list">
-  {% for post in site.posts limit:5 %}
+  
     <article class="post-card">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <time datetime="2026-06-10T00:00:00+03:00">10.06.2026</time>
+      <h3><a href="/2026/06/10/lpr-i-ldpr.html">Два лица: ЛПР и ЛДПР</a></h3>
     </article>
-  {% endfor %}
+  
   </div>
 </section>
 
@@ -29,3 +24,4 @@ title: Обо мне
   <span>Есть вопрос или идея для разговора?</span>
   <a href="mailto:pashilka@gmail.com">pashilka@gmail.com</a>
 </section>
+:ET
