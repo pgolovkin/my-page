@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Обо мне
+title: Главная
 ---
 
 <section class="home-hero">
