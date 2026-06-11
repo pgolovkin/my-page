@@ -27,5 +27,8 @@ title: Главная
 
 <section class="contact-strip">
   <span>Есть вопрос или идея для разговора?</span>
-  <a href="mailto:pashilka@gmail.com">pashilka@gmail.com</a>
+  <div class="contact-links">
+    <a href="mailto:pashilka@gmail.com">pashilka@gmail.com</a>
+    <a href="https://t.me/whileAIworks" target="_blank" rel="noopener noreferrer">@whileAIworks</a>
+  </div>
 </section>
