@@ -30,5 +30,6 @@ title: Главная
   <div class="contact-links">
     <a href="mailto:pashilka@gmail.com">pashilka@gmail.com</a>
     <a href="https://t.me/whileAIworks" target="_blank" rel="noopener noreferrer">@whileAIworks</a>
+    <a href="https://max.ru/join/hIBW0JkLsFpH64ko3_iO6gI0YhRGRI24nsgJMkl7NO0" target="_blank" rel="noopener noreferrer">MAX</a>
   </div>
 </section>
