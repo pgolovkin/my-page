@@ -1,4 +1,11 @@
 title: Пока ИИшка работает
 email: pashilka@gmail.com
-description: Делаю публичне заметки пока ИИшка работает
+description: Делаю публичные заметки пока ИИшка работает
+lang: ru-RU
+url: "https://pashilka.ru"
+logo: /assets/img/favicon-512.png
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed

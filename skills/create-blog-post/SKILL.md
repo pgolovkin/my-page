@@ -44,7 +44,7 @@ tags:
   - tag-two
 ```
 
-The active `post` layout displays `page.date`, `page.title`, optional `page.author`, the content, and optional `page.tags`.
+The active `post` layout displays `page.date`, `page.title`, optional `page.author`, the content, and optional `page.tags`, `page.description`.
 
 ## Date And Visibility
 

@@ -13,4 +13,9 @@
 
 # Jekyll build output and cache
 /_site/
+/.sass-cache/
 /docs/.jekyll-cache/
+
+# Local Bundler install
+/.bundle/
+/vendor/
