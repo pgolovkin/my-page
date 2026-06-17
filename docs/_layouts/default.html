@@ -55,5 +55,21 @@
     </main>
 </div>
 <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+<script>
+    document.querySelectorAll('a[href]').forEach(function (link) {
+        var href = link.getAttribute('href');
+
+        if (!href || href.startsWith('#') || href.startsWith('mailto:')) {
+            return;
+        }
+
+        var url = new URL(href, window.location.href);
+
+        if (url.origin !== window.location.origin) {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+        }
+    });
+</script>
 </body>
 </html>
